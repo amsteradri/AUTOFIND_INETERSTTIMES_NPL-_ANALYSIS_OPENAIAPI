@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente más moderna */
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1, h2 {
+  color: #1a1a1a; /* Color oscuro más suave */
+}
+
+input, button {
+  padding: 12px 15px; /* Padding más generoso */
+  margin: 10px 0;
+  border: 1px solid #ddd; /* Borde sutil */
+  border-radius: 8px; /* Bordes más redondeados */
+  font-size: 16px; /* Tamaño de fuente más grande */
+}
+
+input {
+  width: calc(100% - 32px);
+  box-sizing: border-box;
+  transition: border-color 0.3s ease; /* Transición suave del borde */
+}
+
+input:focus {
+  border-color: #4CAF50; /* Color de enfoque para el input */
+  outline: none; /* Eliminar el outline predeterminado */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transición en color y transformación */
+  font-weight: bold; /* Texto en negrita */
+}
+
+button:hover {
+  background-color: #369c3b; /* Color hover más oscuro */
+  transform: translateY(-2px); /* Efecto de elevación ligero */
+}
+
+.container {
+  width: 90%;
+  max-width: 600px; /* Ancho máximo más grande */
+  margin: 20px auto; /* Margen superior e inferior */
+  background: #fff;
+  padding: 25px; /* Padding más generoso */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+  border-radius: 12px; /* Bordes más redondeados */
+}
+
+.video-details {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin-top: 25px;
+}
+
+.video-details h2 {
+  color: #2c3e50; /* Color de título más oscuro */
+  margin-bottom: 20px;
+}
+
+.video-details p {
+  font-size: 17px; /* Tamaño de fuente ligeramente más grande */
+  line-height: 1.7; /* Espaciado de línea aumentado */
+  color: #4a4a4a; /* Color de texto más suave */
+  margin-bottom: 15px;
+}
+
+.video-details p strong {
+  font-weight: 600; /* Peso de fuente más definido */
+}
+
+
