@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Proyecto de Análisis de Comentarios de YouTube con OpenAI 📊🤖
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
+Este proyecto utiliza la API de YouTube para extraer comentarios de videos específicos y luego emplea el asistente de OpenAI para analizar estos comentarios y generar respuestas útiles basadas en el contenido de los mismos. El objetivo es identificar patrones, menciones de momentos específicos del video y proporcionar insights relevantes.
 
-## Available Scripts
+## Características 🌟
+- Extracción de comentarios de videos de YouTube.
+- Análisis de comentarios usando un asistente personalizado de OpenAI.
+- Identificación de momentos mencionados frecuentemente en los comentarios.
+- Generación de respuestas basadas en el análisis de los comentarios.
 
-In the project directory, you can run:
+## Tecnologías Utilizadas 💻
+- React para el frontend.
+- OpenAI API para el procesamiento de lenguaje natural.
+- YouTube Data API para la recolección de comentarios.
 
-### `npm start`
+## Configuración del Proyecto 🛠️
+Para configurar este proyecto en tu entorno local, sigue estos pasos:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerrequisitos
+- Node.js instalado.
+- Clave API de YouTube.
+- Clave API de OpenAI.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Instalación
+1. Clona el repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/amsteradri/autofind_ineterst_times_npl_analysis_openaiapi.git
+### Instalación
+Navega al directorio del proyecto y instala las dependencias:
+```bash
+cd autofind_ineterst_times_npl_analysis_openaiapi
+npm install
+Crea un archivo .env en la raíz del proyecto y agrega tus claves API:
+REACT_APP_YOUTUBE_API_KEY=tu_clave_api_youtube
+REACT_APP_OPENAI_API_KEY=tu_clave_api_openai
+Inicia el servidor de desarrollo:
+npm start
 
-### `npm test`
+Por supuesto, aquí tienes el contenido en un bloque de código listo para ser copiado y utilizado en tu archivo README.md:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+markdown
+Copy code
+### Instalación
+Navega al directorio del proyecto y instala las dependencias:
+```bash
+cd autofind_ineterst_times_npl_analysis_openaiapi
+npm install
+Crea un archivo .env en la raíz del proyecto y agrega tus claves API:
 
-### `npm run build`
+makefile
+Copy code
+REACT_APP_YOUTUBE_API_KEY=tu_clave_api_youtube
+REACT_APP_OPENAI_API_KEY=tu_clave_api_openai
+Inicia el servidor de desarrollo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy code
+npm start
+Uso 📝
+Para usar la aplicación:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Abre la aplicación en tu navegador.
+Ingresa el ID de un video de YouTube para cargar los comentarios.
+La aplicación analizará los comentarios y mostrará las respuestas generadas por el asistente de OpenAI.
+Contribuciones 🤝
+Las contribuciones son bienvenidas. Si tienes ideas para mejorar la aplicación o agregar nuevas funcionalidades, por favor crea un 'pull request' o abre un 'issue'.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contacto 📬
+Adrián Gutiérrez - amsteradri@gmail.com
+Enlace del Proyecto: https://github.com/amsteradri/autofind_ineterst_times_npl_analysis_openaiapi
