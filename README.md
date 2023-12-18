@@ -1,4 +1,5 @@
 # Proyecto de Análisis de Comentarios de YouTube con OpenAI 📊🤖
+No es funcional hasta la fecha.
 
 ## Descripción
 Este proyecto utiliza la API de YouTube para extraer comentarios de videos específicos y luego emplea el asistente de OpenAI para analizar estos comentarios y generar respuestas útiles basadas en el contenido de los mismos. El objetivo es identificar patrones, menciones de momentos específicos del video y proporcionar insights relevantes.
