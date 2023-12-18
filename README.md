@@ -46,6 +46,7 @@ Navega al directorio del proyecto y instala las dependencias:
 ```bash
 cd autofind_ineterst_times_npl_analysis_openaiapi
 npm install
+
 Crea un archivo .env en la raíz del proyecto y agrega tus claves API:
 
 makefile
@@ -53,19 +54,22 @@ Copy code
 REACT_APP_YOUTUBE_API_KEY=tu_clave_api_youtube
 REACT_APP_OPENAI_API_KEY=tu_clave_api_openai
 Inicia el servidor de desarrollo:
-
-bash
-Copy code
 npm start
-Uso 📝
-Para usar la aplicación:
+```
 
+Uso 📝
+
+Para usar la aplicación:
 Abre la aplicación en tu navegador.
 Ingresa el ID de un video de YouTube para cargar los comentarios.
 La aplicación analizará los comentarios y mostrará las respuestas generadas por el asistente de OpenAI.
+
 Contribuciones 🤝
+
 Las contribuciones son bienvenidas. Si tienes ideas para mejorar la aplicación o agregar nuevas funcionalidades, por favor crea un 'pull request' o abre un 'issue'.
 
 Contacto 📬
+
 Adrián Gutiérrez - amsteradri@gmail.com
+
 Enlace del Proyecto: https://github.com/amsteradri/autofind_ineterst_times_npl_analysis_openaiapi
